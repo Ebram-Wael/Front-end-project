@@ -1,0 +1,61 @@
+*{
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  hsl(47, 88%, 63%);
+}
+.containers{
+    padding:10px;
+    height: 500px;
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+.containers .photo{
+    display: flex;
+    align-items:start;
+    justify-content: center;
+
+}
+.containers .photo img{
+    border-radius: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.containers input{ 
+    background-color: hsl(47, 88%, 63%) ;
+    width: 90px;
+    height: 30px;;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.title a{
+    text-decoration: none;
+    font-size: 15px;
+    color: hsl(47, 88%, 63%);
+}
+ .prof {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+ 
+
